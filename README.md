@@ -9,13 +9,16 @@ Como executar
 -------------
 
 1. Baixe o projeto pelo site ou utilizando o git:
-  ```sh
-    git clone --depth 1 https://github.com/uKaigo/p5pong
-  ```
+```sh
+$ git clone --depth 1 https://github.com/uKaigo/p5pong
+```
 
-2. Execute o projeto utilizando um servidor estático (como o [sirv](https://www.npmjs.com/package/sirv-cli))
+2. Execute o projeto utilizando um servidor estático (como o [sirv](https://www.npmjs.com/package/sirv-cli)):
+```
+$ npm install -g sirv
+$ sirv p5pong
+```
 
-3. Abra o endereço no navegador (geralmente `http://localhost:8080`)
+3. Abra o endereço no navegador (geralmente `http://localhost:8080`).
 
 4. Chame um amigo e se divirta! (Setas e WASD)
-
