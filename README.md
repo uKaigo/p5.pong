@@ -1,4 +1,4 @@
-p5pong
+p5.pong
 ======
 
 Implementação do jogo [Pong](https://pt.wikipedia.org/wiki/Pong) em HTML e Javascript, utilizando a biblioteca [p5.js](https://p5js.org/).
