@@ -10,13 +10,13 @@ Como executar
 
 1. Baixe o projeto pelo site ou utilizando o git:
 ```sh
-$ git clone --recurse-submodules https://github.com/uKaigo/p5pong
+$ git clone --recurse-submodules https://github.com/uKaigo/p5.pong
 ```
 
 2. Execute o projeto utilizando um servidor estático (como o [sirv](https://www.npmjs.com/package/sirv-cli)):
 ```
 $ npm install -g sirv-cli
-$ sirv p5pong
+$ sirv p5.pong
 ```
 
 3. Abra o endereço no navegador (geralmente `http://localhost:8080`).
